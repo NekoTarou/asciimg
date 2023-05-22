@@ -3,8 +3,22 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.korhner</groupId>
     <artifactId>asciimg</artifactId>
-    <version>1.00-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
+
+
+    <distributionManagement>
+        <repository>
+            <id>maven-nekou-release</id>
+            <name>maven-nekou-release</name>
+            <url>https://maven.jiusia.top/repository/maven-nekou-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-nekou-snapshot</id>
+            <name>maven-nekou-snapshot</name>
+            <url>https://maven.jiusia.top/repository/maven-nekou-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <plugins>
